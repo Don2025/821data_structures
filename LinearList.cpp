@@ -92,11 +92,8 @@ void ListTestMain()
 {
     LinearList *L = (LinearList*)malloc(sizeof(LinearList));
     InitList(L,5);
-    InsertElem(L,10,0);
-    InsertElem(L,20,0);
-    InsertElem(L,30,0);
-    InsertElem(L,40,0);
-    InsertElem(L,50,0);
+    for(int i = 10; i <= 50; i+=10)
+        InsertElem(L,i,0);
     if(InsertElem(L,60,0))
         printout(L);
     else if(ListFull(L))

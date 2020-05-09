@@ -1,13 +1,15 @@
-#include <iostream>
-#include "LinearList.h"  //µÚ¶şÕÂ 2.1ÏßĞÔ±í
-#include "CMyString.h"   //µÚËÄÕÂ ×Ö·û´®
+ï»¿#include <iostream>
+#include "LinearList.h"  //ç¬¬äºŒç«  2.1çº¿æ€§è¡¨
+#include "Vector.h"      //ç¬¬äºŒç«  2.2å‘é‡
+#include "CMyString.h"   //ç¬¬å››ç«  å­—ç¬¦ä¸²
 using namespace std;
 
 int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(0),cout.tie(0);
-    //ListTestMain();  //ÏßĞÔ±í²âÊÔ
-    StringTestMain(); //×Ö·û´®²âÊÔ
+//    ListTestMain();  //çº¿æ€§è¡¨æµ‹è¯•
+    VectorTestMain();  //å‘é‡æµ‹è¯•
+//    StringTestMain(); //å­—ç¬¦ä¸²æµ‹è¯•
     return 0;
 }

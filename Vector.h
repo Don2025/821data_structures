@@ -18,5 +18,6 @@ bool Insert(Vector *,ElementType x,int i);  //在向量的第i个位置插入值
 bool Remove(Vector *,int i);  //删除向量的第i个表目
 Vector *Union(Vector *,Vector *);  //向量并集
 Vector *Instersection(Vector *,Vector *);  //向量交集
-
+void printOut(Vector *);  //打印向量
+void VectorTestMain(void);
 #endif //INC_821DATA_STRUCTURES_VECTOR_H
