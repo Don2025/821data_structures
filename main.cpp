@@ -3,6 +3,7 @@
 #include "Vector.h"      //第二章 2.2向量
 #include "Stack.h"       //第二章 2.3堆栈
 #include "CMyString.h"   //第四章 字符串
+#include "WDString.h"    //王道的KMP
 using namespace std;
 
 int main()
@@ -11,7 +12,9 @@ int main()
     cin.tie(0),cout.tie(0);
 //    ListTestMain();  //线性表测试
 //    VectorTestMain();  //向量测试
-    StackTestMain();  //堆栈测试
+//    StackTestMain();  //堆栈测试
 //    StringTestMain(); //字符串测试
+    WDStringTextMain();
+    //s t:aaabaaaaab aaaab
     return 0;
 }
