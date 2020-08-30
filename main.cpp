@@ -6,8 +6,7 @@
 #include "WDString.h"    //王道的KMP
 using namespace std;
 
-int main()
-{
+int main() {
     ios::sync_with_stdio(false);
     cin.tie(0),cout.tie(0);
 //    ListTestMain();  //线性表测试
