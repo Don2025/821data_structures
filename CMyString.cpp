@@ -69,10 +69,10 @@ void GenKMPNext(int *next,CMyString *s)  //计算next数组
     while(i < s->length-1)
     {
         //找出p0,p1,...,pi中最大的相同的最左端子串和最右端子串
-        while(j>=0 && s->str[i]!=s->str[j])
+        while(j>=0 && s->str[i]!=s->str[j]) {
             j = next[j];
-        i++;
-        j++;
+        }
+        i++; j++;
         if(s->str[i]==s->str[j])
             next[i] = next[j];
         else next[i] = j;

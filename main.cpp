@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include "LinearList.h"  //第二章 2.1线性表
 #include "Vector.h"      //第二章 2.2向量
 #include "Stack.h"       //第二章 2.3堆栈
