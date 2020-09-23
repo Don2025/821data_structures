@@ -4,7 +4,6 @@ const int INF = 0x3f3f3f3f;
 const int maxn = 101;
 using namespace std;
 
-
 int nexta[maxn];     //next数组 因为VSCode说next不明确所以写成nexta
 int nextval[maxn];   //nudt的next数组
 
