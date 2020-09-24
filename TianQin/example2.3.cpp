@@ -2,7 +2,7 @@
 using namespace std;
 /* P28【例2.3】A和B是两个带头结点的单链表，其中元素递增有序。
  * 设计一个算法，将A和B归并成一个按元素非递减有序的链表C，C由A和B中的结点组成。
- */
+**/
 void mergeGreaterList(LNode *A,LNode *B,LNode *&C) { //合并成非递减链表
     LNode *p = A->next; //p跟踪A的最小值结点
     LNode *q = B->next; //q跟踪B的最小值结点

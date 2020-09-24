@@ -16,7 +16,6 @@ typedef struct DLNode {
     struct DLNode *next;  //指向后继结点的指针
 }DLNode;
 
-
 void mergeGreaterList(LNode *A, LNode *B, LNode *&C); //例2.3 合并成非递减链表
 void mergeLessList(LNode *A, LNode *B, LNode *&C);    //合并成非递增链表
 void createListL(LNode *&C, int a[], int n); //头插法建立链表
