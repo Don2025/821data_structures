@@ -21,4 +21,8 @@ void mergeLessList(LNode *A, LNode *B, LNode *&C);    //合并成非递增链表
 void createListL(LNode *&C, int a[], int n); //头插法建立链表
 void createListR(LNode *&C, int a[], int n); //尾插法建立链表
 void createDListR(DLNode *&L, int a[], int n); //尾插法建立双链表
+
+
+void InsertSort(int A[], int N); //直接插入排序
+
 #endif //INC_821DATA_STRUCTURES_TIANQIN_H

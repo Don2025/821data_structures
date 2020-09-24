@@ -7,4 +7,4 @@ add_executable(821data_structures main.cpp LinearList.cpp LinearList.h Vector.h 
 add_executable(algorithm1 Algorithm/1.1.cpp)
 add_executable(algorithm6.1 Algorithm/6.1.cpp)
 add_executable(KMP Test/KMP_Next.cpp)
-add_executable(TianQin TianQin/main.cpp TianQin/example2.3.cpp TianQin/TianQin.h TianQin/LinearList.cpp TianQin/practise3.7.cpp TianQin/practise3.6.cpp)
+add_executable(TianQin TianQin/main.cpp TianQin/example2.3.cpp TianQin/TianQin.h TianQin/LinearList.cpp TianQin/practise3.7.cpp TianQin/practise3.6.cpp TianQin/Sort.cpp)

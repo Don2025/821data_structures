@@ -46,8 +46,7 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(0),cout.tie(0);
     string t;
-    // cin >> t;
-    t = "abcaabbcabcaabdab";
+    cin >> t;
     t = ' '+t;  /*咳 这是因为天勤王道字符串和next数组下标都是从1开始的
     熊岳山下标是从0开始的且next[0]=-1; 如果输入的T串第一个字符为空格符,就把t=' '+t换掉,比如写成t='#'+t
     */
