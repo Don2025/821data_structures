@@ -7,7 +7,7 @@ typedef enum boolean {FALSE,TRUE} Bool;  //类似C++的bool型
 
 typedef struct linkedList {      //单链表结构
     Node *front, *rear;  //指向表头和表尾的结点
-    Node *prevPtr, currPtr;  //用于访问数据、插入和删除结点的指针
+    Node *prevPtr, *currPtr;  //用于访问数据、插入和删除结点的指针
     int size;        //表中的结点数
     int position;    //表中当前结点位置计数
 }LinkedList;
